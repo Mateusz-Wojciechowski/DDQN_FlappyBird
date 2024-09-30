@@ -25,3 +25,5 @@ All the hyperparameters have been choosen experimentally and ones presented are 
 ## DDQN performance
 The training performace, specifically average reward across 10 preciding episodes are presented below.
 I was able to achieve a few optimal policies, following which the agent is able to infinitely play the game.
+
+![average_reward_plot](https://github.com/user-attachments/assets/2bc8126e-41d0-49d4-8886-fde6c362afae)
