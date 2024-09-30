@@ -8,7 +8,7 @@ from DDQN.training_constants import BATCH_SIZE
 
 class Agent:
     def __init__(self, n_epochs, gamma, n_actions, input_dims, batch_size, epsilon=0.1,
-                 target_update_threshold=1000, epsilon_end=0.0001, decay_steps=3000000):
+                 target_update_threshold=1000):
         self.agent_experience = AgentExperience(batch_size)
         self.online_net = QNet(n_actions, input_dims)
         self.target_net = QNet(n_actions, input_dims)
